@@ -1,0 +1,611 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*
+	header start
+					*/
+header {
+	background-color: rgb(60, 60, 60);
+	color: white;
+}
+
+.menu_container {
+	height: 70px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: rgb(68, 67, 62);
+}
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu div {
+	margin: 0 10px;
+}
+
+
+.menu a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: rgb(184, 184, 184);
+	font-size: 13pt;
+}
+
+.menu a:hover {
+	color: rgb(24, 207, 171);
+}
+
+.header_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 7%;
+}
+
+.header_container h2, .header_container h1 {
+	text-transform: uppercase;
+}
+
+.header_container h1 {
+	font-size: 69pt;
+}
+
+.header_container h2 {
+	font-size: 25pt;
+}
+
+.header_container p {
+	font-size: 24pt;
+}
+
+.header_container h2 span{
+	color: rgb(24, 207, 171);
+}
+
+.header_container p {
+	color: rgb(212, 212, 212);
+}
+
+.buttons {
+	margin: 6.6% 0;
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.button1 {
+	background-color: rgb(24, 207, 171);
+}
+
+.button2 {
+	background-color: rgb(0, 203, 246);
+}
+
+.button1, .button2 {
+	border-radius: 5px;
+	height: 150%;
+	width: 180px;	
+	font-weight: bold;
+}
+
+.button1 a, .button2 a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 13pt;
+	text-align: center;
+	padding-top: 5.8%;
+}
+
+/*
+	header end
+				*/
+
+
+/* 
+	2nd_container start
+						*/
+
+.container_2nd {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.rect1 p, .rect2 p , .rect3 p, .rect4 p {
+	font-size: 20pt;
+	text-transform: uppercase;
+}
+
+.rect1, .rect3 {
+	background-color: rgb(28, 42, 51);
+	color: rgb(24, 207, 171);
+}
+
+.rect2, .rect4 {
+	background-color: rgb(24, 207, 171);
+	color: rgb(28, 42, 51);
+	color: white;
+}
+
+.rect1, .rect2, .rect3, .rect4 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 340px;
+}
+
+/* 
+	2nd_container end
+						*/
+
+
+/* 
+	features start
+					*/		
+
+.features {
+	background-color: white;
+	margin: 35px;
+}
+
+.name {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.name h2 {
+	font-size: 36pt;
+	font-weight: 500;
+	color: rgb(78, 78, 78);
+}
+
+.features_container {
+	margin: 5% 15%;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.img_name {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.img_name img {
+	padding-right: 3.5%;
+}
+
+.img_name h4 {
+	font-size: 18pt;
+	font-weight: bold;
+	color: rgb(113, 113, 113);
+}
+
+.block {
+	/*width: 400px;*/
+	min-width: 400px;
+}
+
+.block p {
+	font-size: 14pt;
+	color: rgb(131, 131, 131);
+	/*font-weight: bold;*/
+}
+
+
+/* 
+	features end
+					*/		
+
+
+/* 
+	about start
+				*/	
+
+.about {
+	background-color: rgb(9, 15, 20);
+	padding: 35px 0 95px 0;
+}
+
+.about .name h2 {
+	color: white;
+}
+
+.about_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding-left: 38%;
+}
+
+.about_container h4 {
+	color: white;
+	font-weight: bold;
+	font-size: 16pt;
+	text-transform: uppercase
+}
+
+.about_menu {
+	display: flex;
+	flex-direction: row;
+	/*justify-content: space-around;*/
+	/*align-items: flex-start;*/
+}
+
+.our_b, .our_s {
+	margin-left: 15px;
+}
+
+.our_h h4 {
+	color: rgb(24, 207, 171);
+}
+
+.his p {
+	color: rgb(190, 190, 190);
+	margin-right: 25%;
+	font-size: 14pt;
+	font-weight: 400;
+}
+
+.his_container {
+	display: flex;
+	flex-direction: row;
+}
+
+.his_subcontainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.his_subcontainer .img_name p {
+	color: rgb(190, 190, 190);
+	margin-right: 0;
+}
+
+/* 
+	about end
+				*/
+
+/* 
+	work end
+				*/	
+
+.load_more {
+	padding: 0 45%;
+}
+
+.load_more a {
+	background-color: rgb(24, 207, 171);
+	border-radius: 6px;
+	display: block;
+	
+	width: 200px;
+	height: 60px;
+	padding-top: 35px;
+
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 13pt;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+.load_more a img {
+	padding-right: 15px;
+}
+
+/* 
+	work end
+				*/
+
+
+/* 
+	isntall start
+					*/
+
+.install {
+	background-color: rgb(64, 71, 75);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	padding: 5% 0;
+}
+
+.install h1 {
+	font-size: 40pt;
+	text-transform: uppercase;
+	color: rgb(24, 207, 171);
+}
+
+.install h5 {
+	color: white;
+	font-size: 16pt;
+	font-weight: 500;
+}
+
+.install .button1 a {
+	padding: 15% 0;
+}
+
+/* 
+	isntall end
+					*/
+
+
+/* 
+	pricing_table start
+						*/
+
+.pricing_table {
+
+}
+
+.table {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	padding: 80px 0;
+}
+
+.table_column, .table_column .table_block_1, .table_column .table_block_2, .table_column .table_block_3 {
+	display: block;
+	border: 1px solid rgb(225, 225, 225);
+}
+
+.table_column {
+	width: 284px;
+	text-align: center;
+}
+
+.table_column_hover {
+	box-shadow: 0 0 15px rgb(219, 220, 220);
+}
+
+.table_column_hover .table_column .table_block_1 h3 {
+	color: rgb(24, 207, 171);
+}
+
+.table_column_hover .table_column .table_block_2 {
+	background-color: rgb(24, 207, 171);
+}
+
+.table_block_2 {
+	background-color: rgb(46, 74, 91);
+}
+
+.table_block_1 h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 24pt;
+	color: rgb(113, 113, 113);
+}
+
+.table_block_2 h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 39.02pt;
+	color: rgb(245, 246, 246);
+}
+
+.table_block_2 h2 span {
+	font-size: 13.66pt;
+	text-transform: none;
+}
+
+.table_block_3 {
+	font-size: 14pt;
+	color: rgb(119, 119, 119);
+}
+
+.table_column .button a {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 13.66pt;
+	color: white;
+	text-decoration: none;
+
+	display: block;
+	background-color: rgb(46, 74, 91);
+	width: 80%;
+	padding: 10%;
+}
+
+/*
+	pricing_table end
+						*/
+
+/*
+	feedback start
+					*/
+
+.feedback {
+	background-color: rgb(46, 64, 76);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	padding: 5% 0;
+}
+
+.feedback .name h2 {
+	color: white;
+}
+
+.name_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	padding-top: 5%;
+}
+
+.feedback .name_container p {
+	font-size: 16pt;
+	font-weight: 300;
+	color: rgb(187, 187, 187);
+	text-align: center;
+
+	padding: 0 15%;
+}
+
+.feedback .name_container h5 {
+	color: rgb(24, 207, 171);
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+/*
+	feedback end
+					*/
+
+/*
+	13th_container start
+							*/
+
+.container_13th {
+	background-color: rgb(35, 54, 65);
+
+	padding: 5% 0 14% 0;
+}
+
+.container_13th h1 {
+	font-size: 51pt;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.container_13th h3 {
+	font-size: 47pt;
+	color: rgb(24, 207, 171);
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.blocks_13th {
+	display: flex;
+	flex-direction: column;
+
+	padding-left: 55%;
+}
+
+.blocks_13th .block {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+
+.blocks_13th .block p {
+	color: white;
+	padding-left: 1.5%;
+}
+
+.blocks_13th .button1 a{
+	padding: 15% 0;
+}
+
+/*
+	13th_container end
+							*/
+
+/*
+	map start			
+				*/
+
+.map {
+	padding: 7% 0;
+}
+
+.map_container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.map_container .name {
+	padding-left: 13%;
+}
+
+/*
+	map end			
+				*/
+
+/*
+	footer start
+					*/
+
+footer {
+	background-color: rgb(28, 43, 51);
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.column h2 {
+	font-size: 40pt;
+	color: white;
+	font-weight: bold;
+}
+
+.column h2 span {
+	color: rgb(24, 207, 171);
+}
+
+.column p {
+	font-size: 14pt;
+	font-weight: 300;
+}
+
+/*
+	footer end
+					*/
